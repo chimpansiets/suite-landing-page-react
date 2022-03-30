@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.row__header {
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  min-height: 50px;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

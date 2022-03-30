@@ -1,0 +1,11 @@
+.column {
+	display: flex;
+	flex-direction: column;
+
+	&__call_to_action {
+		height: 500px;
+		
+		justify-content: space-between;
+		align-items: center;
+	}
+}

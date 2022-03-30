@@ -1,0 +1,38 @@
+@import "../../colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Overpass:wght@400;700&display=swap');
+
+.btn {
+	// all: unset;
+	min-height: 40px;
+	aspect-ratio: 256 / 61;
+	border-radius: 6px;
+
+	font-family: "Epilogue", sans-serif;
+	font-weight: 700;
+
+	&__primary {
+		color: $creamy_white;
+		background-color: $darker_blue;
+
+		&:hover {
+			background: linear-gradient(110deg, #CB30E3, #FFA84E 110%);
+		}
+	}
+
+	&__cta {
+		max-width: 200px;
+		border: none;
+	}
+
+	&__secondary {
+		color: $darker_blue;
+		background-color: rgba(0, 0, 0, 0);
+
+		border: 1px solid $darker_blue;
+
+		&:hover {
+			color: $creamy_white;
+			background-color: $darker_blue;
+		}
+	}
+}
