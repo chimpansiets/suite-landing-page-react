@@ -7,8 +7,6 @@ import blur_img from "../../assets/pattern-blur.svg";
 import { ColumnAtom } from "../../atoms/Column/ColumnAtom";
 import { LabelAtom } from "../../atoms/Label/LabelAtom";
 
-interface Props {}
-
 export class ReviewOrganism extends React.Component {
 	render() {
 		let jeremy_img = require("../../assets/image-jeremy-large.webp");
