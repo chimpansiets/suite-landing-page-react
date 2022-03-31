@@ -1,30 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Overpass:wght@400;700&display=swap");
 .btn {
   min-height: 40px;
-  aspect-ratio: 256/61;
+  aspect-ratio: 256 / 61;
   border-radius: 6px;
   font-family: "Epilogue", sans-serif;
   font-weight: 700;
 }
+
 .btn__primary {
   color: #F3EDE7;
   background-color: #172339;
 }
+
 .btn__primary:hover {
   background: linear-gradient(110deg, #CB30E3, #FFA84E 110%);
 }
+
 .btn__cta {
   max-width: 200px;
   border: none;
 }
+
 .btn__secondary {
   color: #172339;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #172339;
 }
+
 .btn__secondary:hover {
   color: #F3EDE7;
   background-color: #172339;
 }
-
 /*# sourceMappingURL=styles.css.map */

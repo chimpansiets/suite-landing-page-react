@@ -3,18 +3,20 @@
 	flex-wrap: wrap;
 	position: relative;
 
-	// background-color: green;
-
 	&__header {
 		justify-content: space-between;
 		align-items: center;
-		width: 95%;
 		min-height: 50px;
 
-		margin-left: 20px;
+		margin: 0px 20px 0px 20px;
 	}
 
 	&__landing {
-		
+		justify-content: space-evenly;
+		margin: 0px 20px 0px 20px;
+	}
+
+	&__review {
+		justify-content: center;
 	}
 }

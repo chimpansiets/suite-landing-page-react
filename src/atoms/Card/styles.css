@@ -1,0 +1,20 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__primary {
+  background-color: #172339;
+  border-radius: 15px;
+}
+
+.card__review {
+  aspect-ratio: 1109/545;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 545px;
+  position: relative;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,14 +1,20 @@
 import React from "react";
 import { ButtonAtom } from "../../atoms/Button/ButtonAtom";
 import { ColumnAtom } from "../../atoms/Column/ColumnAtom";
+import { LabelAtom } from "../../atoms/Label/LabelAtom";
 
 export class CallToActionMolecule extends React.Component {
 	render() {
-		return <ColumnAtom type="call_to_action">
-			<h1>A super solution for your business</h1>
-			<p>Our marketing and sales automations<br />
+		return <ColumnAtom classes="call_to_action">
+			<LabelAtom classes="heading_xl dark">
+				A <b>super solution</b><br />
+				for your business
+			</LabelAtom>
+			<LabelAtom classes="body grey">
+				Our marketing and sales automations<br />
 				help you scale your outreach to get<br />
-				more leads for your company. </p>
+				more leads for your company.
+			</LabelAtom>
 			<ButtonAtom classes="primary cta">Request Beta Access</ButtonAtom>
 		</ColumnAtom>;
 	}

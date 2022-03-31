@@ -1,0 +1,19 @@
+@import "../../colors.scss";
+
+.card {
+	display: flex;
+
+	&__primary {
+		background-color: $dark_blue;
+		border-radius: 15px;
+	}
+
+	&__review {
+		aspect-ratio: 1109/545;
+
+		align-self: center;
+		height: 545px;
+
+		position: relative;
+	}
+}

@@ -12,7 +12,6 @@ export class ButtonAtom extends React.Component<Props> {
 
 		if (this.props.classes) {
 			class_array = this.props.classes.split(" ").map((item) => {
-				console.log(item);
 				return "btn__" + item;
 			});
 		}

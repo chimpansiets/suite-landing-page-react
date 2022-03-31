@@ -4,4 +4,20 @@
 	&__hero {
 		height: 600px;
 	}
+
+	&__jeremy {
+		height: 600px;
+		position: absolute;
+		top: -10%;
+		left: 5%;
+	}
+
+	&__jeremy_blur {
+		height: 300px;
+		position: absolute;
+		top: 50%;
+		left: 5%;
+
+		z-index: 0;
+	}
 }

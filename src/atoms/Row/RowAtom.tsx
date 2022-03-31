@@ -2,16 +2,20 @@ import React from "react";
 import './styles.css';
 
 interface Props {
-	type: string,
+	classes?: string,
 }
 
 export class RowAtom extends React.Component<Props> {
 	render() {
-		let classes = "row";
+		let class_array;
 
-		classes += " row__" + this.props.type;
+		if (this.props.classes) {
+			class_array = this.props.classes.split(" ").map((item) => {
+				return "row__" + item;
+			});
+		}
 
-		return <div className={classes}>
+		return <div className={"row " + class_array?.join(" ")}>
 			{this.props.children}
 		</div>;
 	}

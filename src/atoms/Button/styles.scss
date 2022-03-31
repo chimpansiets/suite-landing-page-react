@@ -12,7 +12,7 @@
 
 	&__primary {
 		color: $creamy_white;
-		background-color: $darker_blue;
+		background-color: $dark_blue;
 
 		&:hover {
 			background: linear-gradient(110deg, #CB30E3, #FFA84E 110%);
@@ -25,14 +25,14 @@
 	}
 
 	&__secondary {
-		color: $darker_blue;
+		color: $dark_blue;
 		background-color: rgba(0, 0, 0, 0);
 
-		border: 1px solid $darker_blue;
+		border: 1px solid $dark_blue;
 
 		&:hover {
 			color: $creamy_white;
-			background-color: $darker_blue;
+			background-color: $dark_blue;
 		}
 	}
 }

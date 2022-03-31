@@ -1,11 +1,19 @@
 .column {
 	display: flex;
 	flex-direction: column;
+	// flex-wrap: wrap;
 
-	&__call_to_action {
-		height: 500px;
-		
-		justify-content: space-between;
-		align-items: center;
+	&__call_to_action {		
+		justify-content: space-evenly;
+	}
+
+	&__statistics {
+		justify-content: space-evenly;
+	}
+
+	&__review {
+		position: relative;
+
+		left: 60%;
 	}
 }
