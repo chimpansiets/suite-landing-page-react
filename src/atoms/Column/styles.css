@@ -12,16 +12,24 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  z-index: 1;
 }
 
 .column__statistics {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
 }
 
 .column__review {
   position: relative;
+  justify-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   left: 60%;
 }
 /*# sourceMappingURL=styles.css.map */

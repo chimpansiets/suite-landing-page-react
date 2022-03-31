@@ -18,7 +18,7 @@ export class ReviewOrganism extends React.Component {
 				<ImageAtom classes="jeremy_blur" src={blur_img} alt="blur"/>
 				<ImageAtom classes="jeremy" src={jeremy_img} alt="jeremy" />
 				<ColumnAtom classes="review">
-					<LabelAtom classes="heading_l light">It just works.</LabelAtom>
+					<LabelAtom classes="heading_l light">It just <b>works</b>.</LabelAtom>
 					<LabelAtom classes="quote light">
 						“I really like how it is an all-in-one<br />
 						solution that handle many of the<br />
@@ -26,7 +26,7 @@ export class ReviewOrganism extends React.Component {
 						separate tools to do the same job.<br />
 						This thing is a miracle worker.”
 					</LabelAtom>
-					<LabelAtom classes="heading_m light">JEREMY ROBINSON</LabelAtom>
+					<LabelAtom classes="heading_m light"><b>JEREMY ROBINSON</b></LabelAtom>
 					<LabelAtom classes="heading_s light">CMO, FYLO</LabelAtom>
 				</ColumnAtom>
 			</CardAtom>

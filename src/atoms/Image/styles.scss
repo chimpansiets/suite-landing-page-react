@@ -2,22 +2,49 @@
 	// border: 1px solid green;
 
 	&__hero {
+		position: absolute;
 		height: 600px;
+		right: 38%;
+
+		z-index: 0;
 	}
 
 	&__jeremy {
 		height: 600px;
 		position: absolute;
-		top: -10%;
 		left: 5%;
+		bottom: 0px;
 	}
 
 	&__jeremy_blur {
-		height: 300px;
+		height: 550px;
 		position: absolute;
-		top: 50%;
-		left: 5%;
+		bottom: 0px;
+		left: -3%;
 
 		z-index: 0;
+	}
+
+	&__icon {
+		aspect-ratio: 1/1;
+	}
+
+	&__curved_line_top {
+		position: absolute;
+
+		width: 20%;
+		z-index: 3;
+
+		left: 25%;
+	}
+
+	&__curved_line_bottom {
+		position: absolute;
+
+		width: 20%;
+		z-index: 3;
+
+		left: 50%;
+		bottom: 20%;
 	}
 }

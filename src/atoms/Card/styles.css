@@ -11,10 +11,11 @@
 
 .card__review {
   aspect-ratio: 1109/545;
+  margin: 0px 50px 0px 50px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  height: 545px;
+  width: 1109px;
   position: relative;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -8,7 +8,7 @@ export class CallToActionMolecule extends React.Component {
 		return <ColumnAtom classes="call_to_action">
 			<LabelAtom classes="heading_xl dark">
 				A <b>super solution</b><br />
-				for your business
+				for your <b>business</b>
 			</LabelAtom>
 			<LabelAtom classes="body grey">
 				Our marketing and sales automations<br />
